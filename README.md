@@ -52,6 +52,9 @@ The Heart of IOCCC.
 - [2020.12-rot13](practice/2020.12-rot13)  
 R is for rot13.
 
+- [2021.02-rle](practice/2021.02-rle)  
+Run Length Printing.
+
 ### License
 
 Creative Commons Attribution-ShareAlike 3.0 Unported ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))
