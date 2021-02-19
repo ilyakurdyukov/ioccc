@@ -55,6 +55,9 @@ R is for rot13.
 - [2021.02-rle](practice/2021.02-rle)  
 Run Length Printing.
 
+- [2021.02-simd](practice/2021.02-simd)  
+Dave Burton's one-liner from IOCCC 2020 in SIMD
+
 ### License
 
 Creative Commons Attribution-ShareAlike 3.0 Unported ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))
