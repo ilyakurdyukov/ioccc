@@ -1,6 +1,6 @@
 #ifndef IDX
 #if defined(__ARM_NEON__) || defined(__aarch64__)
-#define IDX 2
+#define IDX 3
 #else
 #define IDX 1
 #endif
@@ -18,7 +18,20 @@ and_si64(a,_mm_set1_\
 pi8(c>1?atoi(v[1]):0)
 )))};puts((char*)x);}
 
-#elif IDX==2 // ARM NEON
+#elif IDX==2
+
+#include <mmintrin.h>
+int main(int c,char**
+#define m(m) _mm_##m(
+v){__m64 a=m(set_pi32
+)~0u/254,~0u/127*8),x
+[2]={m(sub_pi8)m(set\
+1_pi8)48),m(cmpeq_pi\
+8)a,m(and_si64)m(set\
+1_pi8)atoi(v[c-1])),a
+)))};puts((char*)x);}
+
+#elif IDX==3 // ARM NEON
 
 #include <arm_neon.h>
 int main(int c,char**
