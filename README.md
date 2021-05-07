@@ -56,7 +56,10 @@ R is for rot13.
 Run Length Printing.
 
 - [2021.02-simd](practice/2021.02-simd)  
-Dave Burton's one-liner from IOCCC 2020 in SIMD
+Dave Burton's one-liner from IOCCC 2020 in SIMD.
+
+- [2021.05-gcd](practice/2021.05-gcd)  
+Greatest Common Divisor.
 
 ### License
 
