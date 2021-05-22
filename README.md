@@ -61,6 +61,9 @@ Dave Burton's one-liner from IOCCC 2020 in SIMD.
 - [2021.05-gcd](practice/2021.05-gcd)  
 Greatest Common Divisor.
 
+- [2021.05-hexdump](practice/2021.05-hexdump)  
+Hexadecimal Dump.
+
 ### License
 
 Creative Commons Attribution-ShareAlike 3.0 Unported ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))
