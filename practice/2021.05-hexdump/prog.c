@@ -1,5 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+#ifdef _WIN32
+#include <fcntl.h>
+#define for _setmode(_fi\
+leno(stdin),O_BINARY);for
+#endif
 
        h,e,x;main(){
       char d[17]="|";
