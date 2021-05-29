@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #ifdef _WIN32
 #include <fcntl.h>
 #define for _setmode(_fi\
