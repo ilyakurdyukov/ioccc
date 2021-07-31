@@ -67,6 +67,9 @@ Hexadecimal Dump.
 - [2021.05-hellospiral](practice/2021.05-hellospiral)  
 No Strings Attached.
 
+- [2021.07-http](practice/2021.07-http)  
+Micro HTTP server.
+
 ### License
 
 Creative Commons Attribution-ShareAlike 3.0 Unported ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))
