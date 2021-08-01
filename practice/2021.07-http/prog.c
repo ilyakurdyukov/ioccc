@@ -39,15 +39,22 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#ifdef _WIN32 /* needs linking with Ws2_32 */
+#include <winsock2.h>
+#define close closesocket
+#define strstr(a,b)strstr(a,b)||strchr(a,':')||strchr(a,'\\')
+#define struct WSADATA w={0};WSAStartup(514,&w);struct
+#else
 #include <unistd.h>
 #include <netdb.h>
+#endif
 int main(int N,char**V){
 	int i=1,t,c,n;struct sockaddr_in s={0};
-	char b[1036];const char*m;void*f=&s;
+	char b[1036];const char*m;void*f;
 	s.sin_port=htons(N>1?atoi(V[1]):8080);
 	for(N=(t=socket(s.sin_family=AF_INET,SOCK_STREAM,0))<0||
-			(setsockopt(t,SOL_SOCKET,SO_REUSEADDR,&i,sizeof(i)),
-			bind(t,f,sizeof(s))<0)||listen(t,5)?0:1024;
+			(setsockopt(t,SOL_SOCKET,SO_REUSEADDR,f=&i,sizeof(i)),
+			bind(t,f=&s,sizeof(s)))||listen(t,5)?0:1024;
 			N&&(c=accept(t,f=0,0))>=0;close(c)){
 		b[0>(n=recv(c,b,N,0))?0:n]=0;
 		for(n=!memcmp(b,"GET /",i=5)<<6;'?'^n&&32<n&&n<127;)n=b[i++];
