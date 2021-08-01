@@ -22,8 +22,8 @@
   t,0))<0       ||(http  (sizeof         )listen  (t,5))<<10;N&&(0)<=(c
   =accept(t,0,0));close  (c)){b[         n=recv(  c,b,N,0),0>n?0:n]=0;n
   =!memcmp(b,"GET /",5)  <<6;for         (i=4;n^  '?'&&n<       127&&n>
-  32;)n=b[++i];f=0;m=n?  strcpy(         b+i,b[i  -1]-'/'       ?"":"i"
-  "ndex."       "html")  ,puts(5         +b),b[3  ]=('.')       ,strstr
+  32;){n=b[++i];}strcpy  (b+i,b[         f=0,i-1  ]=='/'?       "index"
+  ".html"       :"");m=  n?puts(         b+5),b[  03]='.'       ,strstr
   (b,"/."       )||0==(  f=fopen         (&b[3],  "rb"))?"404 Not Foun"
   "d":"2"       "00 OK"                  :"501 "  "Not Implemented";for
   ((send)       ((c),b,                  sprintf  (b,"HTTP/1.1 %s\r\n"

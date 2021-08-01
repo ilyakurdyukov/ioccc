@@ -26,4 +26,5 @@ This should print "hello.txt" - which is printed by the server, and then "Hello,
 
 - Fixed the "//" vulnerability, that was pointed out at HN (thanks to [NieDżejkob](https://github.com/NieDzejkob) for noticing the shortcut, so I have space to fix it).
 - Fixed CRLFs ("\n\r\n" -> "\r\n\r\n") required by the standard, however it seems that modern browsers simply ignore CR.
-- One less warning when compiling with Clang ("missing field initializer").
+- Fixed compiler warnings for GCC and Clang when using "-Wall -Wextra -pedantic" (I don't care about Clang's "-Weverything").
+
