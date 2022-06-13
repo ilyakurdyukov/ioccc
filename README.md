@@ -73,6 +73,9 @@ Micro HTTP server.
 - [2022.04-hello++](practice/2022.04-hello++)  
 C++ operator overloading abuse.
 
+- [2022.06-fizzbuzz++](practice/2022.06-fizzbuzz++)  
+A way to torture an interviewer.
+
 ### License
 
 Creative Commons Attribution-ShareAlike 3.0 Unported ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))
