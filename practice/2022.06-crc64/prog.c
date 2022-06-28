@@ -15,6 +15,9 @@ for(c^=a,b=8;b--;)c
 
 #elif IDX==2 // smaller and more slower
 
+/* Will not work correctly if unsigned long long is
+   longer than 64 bits, which is allowed by the standard. */
+
  #include<stdio.h>
 int main(){unsigned
 long long a,b=0,c=~
