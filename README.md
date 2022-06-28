@@ -76,6 +76,9 @@ C++ operator overloading abuse.
 - [2022.06-fizzbuzz++](practice/2022.06-fizzbuzz++)  
 A way to torture an interviewer.
 
+- [2022.06-crc64](practice/2022.06-crc64)  
+CRC64 checksum (ECMA-182 reflected, used in XZ).
+
 ### License
 
 Creative Commons Attribution-ShareAlike 3.0 Unported ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))
