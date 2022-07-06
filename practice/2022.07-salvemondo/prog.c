@@ -1,3 +1,8 @@
+#ifndef IDX
+#define IDX 1
+#endif
+#if IDX==1
+
 #include <stdio.h>
 
 int main() { puts((char[]){
@@ -18,3 +23,43 @@ int main() { puts((char[]){
 
                          0}); }
 
+
+#elif IDX==2 // more cryptic
+
+#include <stdio.h>
+
+int main() { puts((char[]){
+
+ ~-~-~-~-~-~-~-~-~-~-~- 'S',
+ ~-~-~-~~-~-~-~-~-~-~-~ 'a',
+ ~-~-~-~-~-~~-~-~-~-~-~ 'l',
+ ~-~-~-~-~-~-~-~-~-~-~~ 'v',
+ ~~-~-~-~-~-~-~-~-~-~-~ 'e',
+ ~-~-~-~-~-~~-~-~-~-~-~ ',',
+ ~-~-~-~-~-~~-~-~-~-~-~ ' ',
+ ~~-~-~-~-~-~-~-~-~-~-~ 'M',
+ ~-~-~-~-~-~~-~-~-~-~-~ 'o',
+ ~-~-~-~~-~-~-~-~-~-~-~ 'n',
+ ~-~~-~-~-~-~-~-~-~-~-~ 'd',
+ ~-~-~-~-~-~-~-~-~-~-~- 'o',
+ ~-~-~-~-~-~~-~-~-~-~-~ '!',
+
+                         0}); }
+
+#elif IDX==3 // encoder
+
+#include <stdio.h>
+
+int main() {
+	const char *s1 = "Salve, Mondo!";
+	const char *s2 = "Hello, World!";
+	int i;
+	for (i = 0; s1[i]; i++) {
+		int a = s1[i] - s2[i];
+		while (a > 0) printf("~-"), a--;
+		while (a < 0) printf("-~"), a++;
+		printf("'%c',\n", s1[i]);
+	}
+}
+
+#endif
