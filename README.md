@@ -82,6 +82,9 @@ CRC64 checksum (ECMA-182 reflected, used in XZ).
 - [2022.07-salvemondo](practice/2022.07-salvemondo)  
 A simple Italian to English translator.
 
+- [2022.07-owlhw](practice/2022.07-owlhw)  
+Hello World is encoded into a sequence similar to owl emoticons.
+
 ### License
 
 Creative Commons Attribution-ShareAlike 3.0 Unported ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))
