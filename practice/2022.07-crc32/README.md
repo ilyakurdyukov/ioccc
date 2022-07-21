@@ -4,3 +4,5 @@ A very unusual CRC32 function (the most common [variant](https://reveng.sourcefo
 
 Also the code is self-describing, see those big CRC letters? But maybe I misunderstand this term.
 
+* Little-endian code, big-endian CPUs need byte swapping.
+
