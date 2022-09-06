@@ -17,6 +17,6 @@ double handy[] = {
 };
 
 int main() {
-	*(double*)handy *= (long) //* distraction *//;
+	*(double volatile*)handy *= (long) //* distraction *//;
 	signal(SIGSEGV, (void*)handy);
 }
