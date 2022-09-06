@@ -88,6 +88,9 @@ Hello World is encoded into a sequence similar to owl emoticons.
 - [2022.07-crc32](practice/2022.07-crc32)  
 Unusual CRC32 function.
 
+- [2022.09-doublehandy](practice/2022.09-doublehandy)  
+This suspicious code prints Hello World.
+
 ### License
 
 Creative Commons Attribution-ShareAlike 3.0 Unported ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))
