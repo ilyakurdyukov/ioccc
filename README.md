@@ -91,6 +91,9 @@ Unusual CRC32 function.
 - [2022.09-doublehandy](practice/2022.09-doublehandy)  
 This suspicious code prints Hello World.
 
+- [2022.12-hello++gcc](practice/2022.12-hello++gcc)  
+Hello G++.
+
 ### License
 
 Creative Commons Attribution-ShareAlike 3.0 Unported ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))
