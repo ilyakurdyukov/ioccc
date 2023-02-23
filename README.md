@@ -94,6 +94,9 @@ This suspicious code prints Hello World.
 - [2022.12-hello++gcc](practice/2022.12-hello++gcc)  
 Hello G++.
 
+- [2023.02-hwitch](practice/2023.02-hwitch)  
+A new technique for switch() that reduces emissions of semicolons and curly braces.
+
 ### License
 
 Creative Commons Attribution-ShareAlike 3.0 Unported ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))
