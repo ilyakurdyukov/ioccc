@@ -97,6 +97,9 @@ Hello G++.
 - [2023.02-hwitch](practice/2023.02-hwitch)  
 A new technique for switch() that reduces emissions of semicolons and curly braces.
 
+- [2023.08-k&r](practice/2023.08-k&r)  
+Exercises from Kernighan & Ritchie's "The C Programming Language (2nd edition)"
+
 ### License
 
 Creative Commons Attribution-ShareAlike 3.0 Unported ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/))
