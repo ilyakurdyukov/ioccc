@@ -98,7 +98,10 @@ Hello G++.
 A new technique for switch() that reduces emissions of semicolons and curly braces.
 
 - [2023.08-k&r](practice/2023.08-k&r)  
-Exercises from Kernighan & Ritchie's "The C Programming Language (2nd edition)"
+Exercises from Kernighan & Ritchie's "The C Programming Language (2nd edition)".
+
+- [2025.08-goodbye_c89](practice/2025.08-goodbye_c89)  
+An ordinary Hello World, but not for C89.
 
 ### License
 
